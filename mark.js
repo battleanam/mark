@@ -4,6 +4,7 @@ var x = 0, w = 0, y = 0, h = 0; // 起点、终点坐标
 var marker = document.getElementById('marker'); // 画布
 var brush = marker.getContext('2d'); // 画笔
 var marks = []; // 已保存的标注
+var handlerDic = {};
 
 initMarker(600, 400);
 
