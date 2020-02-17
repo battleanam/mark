@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>标注系统</title>
+</head>
+<body>
+<div>
+  <a onclick="javascript: imgData = null ;clearMarker()">清空</a>
+  <a style="margin-left: 12px" onclick="drawDemo()">绘制Demo</a>
+</div>
+<canvas id="marker" width="600" height="400" draggable></canvas>
+
+<script type="text/javascript" src="./tools.js"></script>
+<script type="text/javascript" src="./mark.js"></script>
+
+<style type="text/css">
+
+  canvas {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #000;
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+</style>
+</body>
+</html>
